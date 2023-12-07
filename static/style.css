@@ -1,0 +1,100 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.about,
+.benefits,
+.subjects,
+.faq {
+    margin-bottom: 30px;
+}
+
+.about h3,
+.benefits h3,
+.subjects h3,
+.faq h3 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.about p,
+.benefits ul,
+.subjects ul,
+.faq ul {
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+
+.faq strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header h2 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+}
